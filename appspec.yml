@@ -1,28 +1,7 @@
 version: 0.0
-resources:
+Resources:
   - logicFunction:
-      type: AWS::Lambda::Function
-      properties:
-        name: logic_function
-        alias: Casino-lambda
-        currentversion: 1
-hooks:
-  BeforeInstall:
-    - location: scripts/before_install.sh
-      timeout: 300
-      runas: root
-
-  AfterInstall:
-    - location: scripts/after_install.sh
-      timeout: 300
-      runas: root
-
-  ApplicationStart:
-    - location: scripts/start_application.sh
-      timeout: 300
-      runas: root
-
-  ValidateService:
-    - location: scripts/validate_service.sh
-      timeout: 300
-      runas: root
+      Type: AWS::Lambda::Function
+      Properties:
+        Name: "logic_function"
+        CurrentVersion: "1"
