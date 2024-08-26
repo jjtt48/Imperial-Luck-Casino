@@ -6,3 +6,4 @@ Resources:
         Name: "Casino"
         Alias: "CasinoV1"
         CurrentVersion: 1
+        TargetVersion: 1
