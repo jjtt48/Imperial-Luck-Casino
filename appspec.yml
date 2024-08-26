@@ -5,4 +5,4 @@ Resources:
       Properties:
         Name: "Casino-Function"
         Alias: "Casino-lambda"
-        CurrentVersion: "1"
+        CurrentVersion: 1
