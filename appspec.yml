@@ -3,5 +3,6 @@ Resources:
   - logicFunction:
       Type: AWS::Lambda::Function
       Properties:
-        Name: "logic_function"
+        Name: "Casino-Function"
+        Alias: "Casino-lambda"
         CurrentVersion: "1"
