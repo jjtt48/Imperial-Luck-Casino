@@ -4,4 +4,5 @@ Resources:
       Type: AWS::Lambda::Function
       Properties:
         Name: "logic_function"
-        CurrentVersion: "1"
+        Alias: "Casino-lambda"
+        CurrentVersion: "$Latest"
