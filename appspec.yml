@@ -4,4 +4,5 @@ Resources:
       Type: AWS::Lambda::Function
       Properties:
         Name: "Casino"
+        Alias: "CasinoV1"
         CurrentVersion: 1
