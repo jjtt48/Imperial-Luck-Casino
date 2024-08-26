@@ -5,4 +5,4 @@ Resources:
       Properties:
         Name: "logic_function"
         Alias: "Casino-lambda"
-        CurrentVersion: "1"
+        CurrentVersion: "$LATEST"
