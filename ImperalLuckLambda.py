@@ -10,7 +10,7 @@ def lambda_handler(event, context):
     4. Seguridad: Implementamos medidas de seguridad para proteger su información personal.
     5. Derechos del usuario: Puede solicitar acceso, corrección o eliminación de sus datos en cualquier momento.
 
-    Por favor, lea esta política cuidadosamente. Para continuar usando nuestros servicios, debe aceptar los términos de esta política.
+    
     """
 
     
